@@ -1,0 +1,15 @@
+if TARGET_S5L8930
+
+config SYS_BOARD
+	default "iphone4"
+
+config SYS_VENDOR
+	default "apple"
+
+config SYS_SOC
+	default "s5l8930"
+
+config SYS_CONFIG_NAME
+	default "iphone4"
+
+endif

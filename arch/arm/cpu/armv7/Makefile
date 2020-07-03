@@ -33,6 +33,7 @@ ifneq (,$(filter s5pc1xx exynos,$(SOC)))
 obj-y += s5p-common/
 endif
 
+obj-$(if $(filter s5l8930,$(SOC)),y) += s5l8930/
 obj-$(if $(filter bcm235xx,$(SOC)),y) += bcm235xx/
 obj-$(if $(filter bcm281xx,$(SOC)),y) += bcm281xx/
 obj-$(if $(filter bcmcygnus,$(SOC)),y) += bcmcygnus/
